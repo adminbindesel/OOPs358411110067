@@ -1,0 +1,128 @@
+Index: src/lab2/ex6.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab2/ex6.java	(date 1544859833736)
++++ src/lab2/ex6.java	(date 1544859833736)
+@@ -0,0 +1,16 @@
++package lab2;
++
++public class ex6 {
++    public static void main(String[] args) {
++        int n=1;
++        while (n <=10){
++            System.out.println("Hello");
++            n++;
++        }
++
++
++
++
++    }//main
++
++}//class
+Index: src/lab2/ex7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab2/ex7.java	(date 1544860675561)
++++ src/lab2/ex7.java	(date 1544860675561)
+@@ -0,0 +1,10 @@
++package lab2;
++
++public class ex7 {
++    public static void main(String[] args) {
++        int b=1;
++        do {
++            System.out.println("hallo"+b);
++        }while(++b <=10);
++    }//main
++}//class
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/modules.xml	(revision 94495ee7a3fd2c114a008436dea8b9456e651b5e)
++++ .idea/modules.xml	(date 1544857457669)
+@@ -2,7 +2,7 @@
+ <project version="4">
+   <component name="ProjectModuleManager">
+     <modules>
+-      <module fileurl="file://$PROJECT_DIR$/OOP358411110067.iml" filepath="$PROJECT_DIR$/OOP358411110067.iml" />
++      <module fileurl="file://$PROJECT_DIR$/OOPs358411110067.iml" filepath="$PROJECT_DIR$/OOPs358411110067.iml" />
+     </modules>
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/lab2/ex4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab2/ex4.java	(date 1544858441040)
++++ src/lab2/ex4.java	(date 1544858441040)
+@@ -0,0 +1,19 @@
++package lad2;
++
++public class ex4 {
++    public static void main(String[] args) {
++        // print "Hello" 10 times
++
++        for (int count=1; count<=15; count++) {
++            //
++            System.out.println("สวัสดีคนสวย");
++
++
++        }
++
++
++
++
++
++    }//main
++}
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 94495ee7a3fd2c114a008436dea8b9456e651b5e)
++++ .idea/misc.xml	(date 1544857351858)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/lab2/ex5.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/lab2/ex5.java	(date 1544859467639)
++++ src/lab2/ex5.java	(date 1544859467639)
+@@ -0,0 +1,16 @@
++package lab2;
++
++public class ex5 {
++    public static void main(String[] args) {
++        // print "Hello" 10 times
++
++        for (int X=0; X <=100 ; X++)
++            if (X % 5 ==0 && X % 3 == 0 ) {
++                System.out.println(X);
++
++            }
++
++
++        }//main
++
++    }//class
+\ No newline at end of file
