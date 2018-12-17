@@ -15,7 +15,7 @@ public class ex1 {
 
         System.out.print("How age are you? : ");
         int age;
-        age = sc.nextLine(age);
+        age = sc.nextInt();
         System.out.print("How age are you? : ");
         if (age>=18)
             System.out.println("dddd");

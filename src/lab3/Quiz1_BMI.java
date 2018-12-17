@@ -9,13 +9,14 @@ public class Quiz1_BMI {
 
         System.out.print("น้ำหนักเท่าไร");
         w = sc.nextDouble();
-        System.out.print("ส่วนสูงเท่าไร");
+        System.out.print("ส่วนสูงเท่าไร(เมตร)");
         h = sc.nextDouble();
 
         //calculate BMI
         Double bmi =w/(h*h);
+        System.out.println("BMI = "+bmi);
         //Test condition
-        if (bmi<=18.50)
+        if (bmi>=18.50)
             System.out.println("ผอม");
         else if (bmi>=18.60&&bmi<=22.90)
             System.out.println("ปกติ");
