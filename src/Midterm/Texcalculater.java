@@ -1,7 +1,7 @@
 package Midterm;
 
 import java.util.Scanner;
-public class TexCalculator {
+public class Texcalculater {
 
     public static void main(String[] args) {
         String name,number;
