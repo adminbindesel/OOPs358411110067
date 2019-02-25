@@ -1,17 +1,19 @@
 package lab8;
 
-public class Employee extends Person{
-    private String position;
-    private double salary;
+public class Employee extends  person {
+    private  String  position;
+    private  double salary;
 
-    //contructor
+    //constructor
+
     public Employee(String pID, String name, String position, double salary) {
         super(pID, name);
         this.position = position;
         this.salary = salary;
     }
 
-    //toSting
+    //toString
+
     @Override
     public String toString() {
         return super.toString()+"Employee{" +
@@ -19,6 +21,10 @@ public class Employee extends Person{
                 ", salary=" + salary +
                 '}';
     }
+
+
+    //getter and setter
+
 
     public String getPosition() {
         return position;
@@ -35,4 +41,4 @@ public class Employee extends Person{
     public void setSalary(double salary) {
         this.salary = salary;
     }
-}//class
+}
